@@ -8,16 +8,7 @@
     <section class="menu_navigazione">
       <nav>
         <ul>
-          <li><a href="#">CHARACTERS</a></li>
-          <li><a href="#">COMICS</a></li>
-          <li><a class="active" href="#">MOVIES</a></li>
-          <li><a href="#">TV</a></li>
-          <li><a href="#">GAMES</a></li>
-          <li><a href="#">COLLECTIBLES</a></li>
-          <li><a href="#">VIDEOS</a></li>
-          <li><a href="#">FANS</a></li>
-          <li><a href="#">NEWS</a></li>
-          <li><a href="#">SHOP</a></li>        
+          <li v-for="link, i in links" :key="i"><a :class="link.select ? 'active' : ''" :href="link.url">{{link.text}}</a></li>      
         </ul>
       </nav>
     </section>
@@ -26,8 +17,64 @@
 
 <script>
 export default {
-  name: 'Header'
-}
+  name: 'Header',
+  data() {
+    return {
+      links: [
+        {
+          text: "CHARACTERS",
+          url: "#",
+          select: true
+        },
+        {
+          text: "COMICS",
+          url: "#",
+          select: false
+        },
+        {
+          text: "MOVIES",
+          url: "#",
+          select: false
+        },
+        {
+          text: "TV",
+          url: "#",
+          select: false
+        },
+        {
+          text: "GAMES",
+          url: "#",
+          select: false
+        },
+        {
+          text: "COLLECTIBLES",
+          url: "#",
+          select: false
+        },
+        {
+          text: "VIDEOS",
+          url: "#",
+          select: false
+        },
+        {
+          text: "FANS",
+          url: "#",
+          select: false
+        },
+        {
+          text: "NEWS",
+          url: "#",
+          select: false
+        },
+        {
+          text: "SHOP",
+          url: "#",
+          select: false
+        },
+      ],
+    };
+  },
+};
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
