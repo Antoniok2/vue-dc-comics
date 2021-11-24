@@ -6,6 +6,7 @@
     <!-- MAIN -->
     <main>
       <Content/>
+      <Mainextra/>
     </main>
 
     <!-- FOOTER -->
@@ -15,13 +16,15 @@
 
 <script>
 import Header from './components/Header.vue';
-import Content from './components/Content.vue'
+import Content from './components/Content.vue';
+import Mainextra from './components/Mainextra.vue'
 
 export default {
   name: 'App',
   components: {
     Header,
-    Content
+    Content,
+    Mainextra
   }
 }
 </script>
