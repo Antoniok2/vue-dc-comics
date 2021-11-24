@@ -10,21 +10,28 @@
     </main>
 
     <!-- FOOTER -->
-
+    <footer>
+      <Footernav/>
+      <Footerfollow/>
+    </footer>
   </div>
 </template>
 
 <script>
 import Header from './components/Header.vue';
 import Content from './components/Content.vue';
-import Mainextra from './components/Mainextra.vue'
+import Mainextra from './components/Mainextra.vue';
+import Footernav from './components/Footernav.vue';
+import Footerfollow from './components/Footerfollow.vue';
 
 export default {
   name: 'App',
   components: {
     Header,
     Content,
-    Mainextra
+    Mainextra,
+    Footernav,
+    Footerfollow
   }
 }
 </script>
