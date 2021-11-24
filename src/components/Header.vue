@@ -8,7 +8,9 @@
     <section class="menu_navigazione">
       <nav>
         <ul>
-          <li v-for="link, i in links" :key="i"><a :class="link.select ? 'active' : ''" :href="link.url">{{link.text}}</a></li>      
+          <li v-for="link, i in links" :key="i">
+            <a :class="link.select ? 'active' : ''" :href="link.url">{{link.text}}</a>
+          </li>
         </ul>
       </nav>
     </section>
@@ -18,63 +20,63 @@
 <script>
 export default {
   name: 'Header',
-  data() {
+  data () {
     return {
       links: [
         {
-          text: "CHARACTERS",
-          url: "#",
+          text: 'CHARACTERS',
+          url: '#',
           select: true
         },
         {
-          text: "COMICS",
-          url: "#",
+          text: 'COMICS',
+          url: '#',
           select: false
         },
         {
-          text: "MOVIES",
-          url: "#",
+          text: 'MOVIES',
+          url: '#',
           select: false
         },
         {
-          text: "TV",
-          url: "#",
+          text: 'TV',
+          url: '#',
           select: false
         },
         {
-          text: "GAMES",
-          url: "#",
+          text: 'GAMES',
+          url: '#',
           select: false
         },
         {
-          text: "COLLECTIBLES",
-          url: "#",
+          text: 'COLLECTIBLES',
+          url: '#',
           select: false
         },
         {
-          text: "VIDEOS",
-          url: "#",
+          text: 'VIDEOS',
+          url: '#',
           select: false
         },
         {
-          text: "FANS",
-          url: "#",
+          text: 'FANS',
+          url: '#',
           select: false
         },
         {
-          text: "NEWS",
-          url: "#",
+          text: 'NEWS',
+          url: '#',
           select: false
         },
         {
-          text: "SHOP",
-          url: "#",
+          text: 'SHOP',
+          url: '#',
           select: false
-        },
-      ],
-    };
-  },
-};
+        }
+      ]
+    }
+  }
+}
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
@@ -91,7 +93,7 @@ export default {
 
       img {
       width: 70px;
-      } 
+      }
     }
 
     .menu_navigazione {
