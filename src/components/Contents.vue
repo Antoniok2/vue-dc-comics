@@ -2,6 +2,7 @@
   <div class="container">
     <div class="schede">
       <Content v-for="scheda, i in schedeProducts" :key="i" :details="scheda"/>
+      <button>LOAD MORE</button>
     </div>
   </div>
 </template>
@@ -103,10 +104,17 @@ export default {
 
     .schede {
       display: flex;
+      justify-content: center;
       flex-wrap: wrap;
       width: 80%;
-      height: 100%;
+      height: 90%;
       margin: 0 auto;
+
+      button {
+        padding: 10px 35px;
+        color: white;
+        background-color: #0282f9;
+      }
     }
   }
 </style>
