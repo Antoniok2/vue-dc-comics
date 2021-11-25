@@ -99,7 +99,6 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
   .container {
-    height: 570px;
     background-color: black;
 
     .schede {
@@ -107,11 +106,11 @@ export default {
       justify-content: center;
       flex-wrap: wrap;
       width: 80%;
-      height: 90%;
       margin: 0 auto;
 
       button {
         padding: 10px 35px;
+        margin-bottom: 10px;
         color: white;
         background-color: #0282f9;
       }
