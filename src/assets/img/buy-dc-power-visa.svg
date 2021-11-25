@@ -1,1 +1,8 @@
-<svg version="1.1" id="Layer_2_1_" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 79.5 50.9" xml:space="preserve"><style>.st0{fill:none;stroke:#fff;stroke-width:1.7732;stroke-miterlimit:10}</style><path class="st0" d="M73.9 49.6H5.3c-2.1 0-3.8-1.7-3.8-3.8V5.4c0-2.1 1.7-3.8 3.8-3.8h68.6c2.1 0 3.8 1.7 3.8 3.8v40.3c0 2.1-1.7 3.9-3.8 3.9zM1.5 15.4h76.2"/><path fill="#fff" stroke="#fff" stroke-width=".998" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M50.1 22.1l-9.7 1.4 5.1-16.4L29 30.2l9.3-1.3L34.4 44z"/></svg>
+<svg width="95" height="71" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" version="1.1">
+
+ <g>
+  <title>Layer 1</title>
+  <path stroke="#fff" id="svg_1" stroke-miterlimit="10" stroke-width="1.7732" fill="none" d="m88.4887,69.8866l-83.0042,0c-2.54094,0 -4.5979,-2.44375 -4.5979,-5.4625l0,-58.075c0,-3.01875 2.05696,-5.4625 4.5979,-5.4625l83.0042,0c2.54094,0 4.5979,2.44375 4.5979,5.4625l0,57.93125c0,3.01875 -2.05696,5.60625 -4.5979,5.60625zm-87.6021,-49.1625l92.2,0" class="st0"/>
+  <path id="svg_2" d="m57.4866,29.3866l-9.7,1.4l5.1,-16.4l-16.5,23.1l9.3,-1.3l-3.9,15.1l15.7,-21.9z" stroke-miterlimit="10" stroke-linejoin="round" stroke-linecap="round" stroke-width="0.998" stroke="#fff" fill="#fff"/>
+ </g>
+</svg>

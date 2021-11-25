@@ -1,6 +1,5 @@
 <template>
   <div class="jumbotron">
-    <img src="../assets/img/jumbotron.jpg" alt="">
   </div>
 </template>
 
@@ -14,13 +13,9 @@ export default {
 <style scoped lang="scss">
     .jumbotron {
         width: 100%;
-        height: 300px;
-        background-color: blue;
-
-        img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
+        height: 400px;
+        background-image: url(../assets/img/jumbotron.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
     }
 </style>

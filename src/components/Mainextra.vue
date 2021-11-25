@@ -18,7 +18,7 @@
             <span>COMIC SHOP LOCATOR</span>
           </section>
           <section>
-            <img src="../assets/img/buy-dc-power-visa.svg" alt="extra_icon" />
+            <img class="prop" src="../assets/img/buy-dc-power-visa.svg" alt="extra_icon" />
             <span>DC POWER VISA</span>
           </section>
       </div>
@@ -56,6 +56,15 @@ export default {
 
                 img {
                     width: 20%;
+
+                    &.prop {
+                      width: 80px;
+                      margin-left: 10px ;
+                    }
+                }
+
+                &:hover {
+                  transform: scale(1.1);
                 }
             }
         }

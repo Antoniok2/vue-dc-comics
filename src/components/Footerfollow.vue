@@ -37,6 +37,11 @@ export default {
             padding: 10px;
             color: white;
             background-color: #303030;
+            cursor: pointer;
+
+            &:hover {
+            background-color: #525252;
+            }
         }
 
         .follow_us {
@@ -51,6 +56,7 @@ export default {
 
             .social> img {
                 margin: 0 10px;
+                cursor: pointer;
             }
         }
     }

@@ -29,5 +29,9 @@ export default {
         span {
             color: white;
         }
+
+        &:hover {
+          transform: scale(1.1);
+        }
     }
 </style>

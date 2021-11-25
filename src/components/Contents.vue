@@ -113,6 +113,11 @@ export default {
         margin-bottom: 10px;
         color: white;
         background-color: #0282f9;
+        cursor: pointer;
+
+        &:hover {
+          background-color: #236fb6;
+        }
       }
     }
   }

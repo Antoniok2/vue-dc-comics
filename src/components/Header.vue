@@ -114,6 +114,10 @@ export default {
           color: blue;
           border-bottom: 1px solid blue;
           }
+
+          &:hover {
+            color: blue;
+          }
         }
       }
   }
