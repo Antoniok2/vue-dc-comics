@@ -57,6 +57,10 @@ export default {
             .social> img {
                 margin: 0 10px;
                 cursor: pointer;
+
+                &:hover {
+                    transform: scale(1.1);
+                }
             }
         }
     }

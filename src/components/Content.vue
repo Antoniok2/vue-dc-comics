@@ -20,10 +20,12 @@ export default {
         width: calc((100% / 6) - 56px);
         height: 40%;
         margin: 28px;
+        text-align: center;
 
         img {
             width: 80%;
             height: 80%;
+            margin: 15px;
         }
 
         span {
