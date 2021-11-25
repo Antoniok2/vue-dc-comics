@@ -156,7 +156,5 @@ export default {
                 width: 70%;
             }
         }
-
     }
-
 </style>

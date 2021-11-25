@@ -5,7 +5,8 @@
 
     <!-- MAIN -->
     <main>
-      <Content/>
+      <Jumbotron/>
+      <Contents/>
       <Mainextra/>
     </main>
 
@@ -18,17 +19,19 @@
 </template>
 
 <script>
-import Header from './components/Header.vue';
-import Content from './components/Content.vue';
-import Mainextra from './components/Mainextra.vue';
-import Footernav from './components/Footernav.vue';
-import Footerfollow from './components/Footerfollow.vue';
+import Header from './components/Header.vue'
+import Jumbotron from './components/Jumbotron.vue'
+import Contents from './components/Contents.vue'
+import Mainextra from './components/Mainextra.vue'
+import Footernav from './components/Footernav.vue'
+import Footerfollow from './components/Footerfollow.vue'
 
 export default {
   name: 'App',
   components: {
     Header,
-    Content,
+    Jumbotron,
+    Contents,
     Mainextra,
     Footernav,
     Footerfollow

@@ -1,14 +1,14 @@
 <template>
   <div class="contents">
       <h1>
-          >---- Content goes here ---<
+          >---- Content goes here ---
       </h1>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'Content'
+  name: 'Contents'
 }
 </script>
 
